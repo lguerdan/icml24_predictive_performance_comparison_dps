@@ -124,4 +124,3 @@ def check_dgp_config(dgp):
         
     if dgp['id_assumption'] == 'MSM':
         assert dgp['z_coeffs'].sum() == 0, 'Error in configuration, instrument available in MSM setting'
-

@@ -294,5 +294,3 @@ def get_bounds(data, Vpf_down, Vpf_up, u=False, verbose=False):
             print()
 
     return pd.DataFrame(bounds)
-
-    
